@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+}
+.home-page{
+    background-color: #222831;
+}
+/* header start here */
+.home-page .header{
+    color: #EEEEEE;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.home-page .header .SaulDesign{
+    font-family: "Oswald", serif;
+    font-size: 24px;
+}
+.home-page .header .nav-link{
+    display: flex;
+    gap: 2rem;
+}
+.home-page .header .nav-link a{
+    color: #EEEEEE;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+/* header end here */
+/* --------------------------------------------------------------- */
+/* home page start */
+.home-page .home{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 13rem;
+}
+.home .home-element{
+display: flex;
+}
+.home .home-element .round-arrow img{
+    padding-top: 7rem;
+}
+.home .home-element .text-and-button .creative-ui-designer{
+    color: #EEEEEE;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    font-size: 90px;
+    font-weight: 200;
+    line-height: 100px;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.home .home-element .text-and-button .creative-ui-designer samp{
+    color: #00ADB5;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+}
+.home .home-element .text-and-button .both-button .button1{
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 30px;
+    border: 0;
+    border-radius: 20px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.home .home-element .text-and-button .both-button .button2 {
+    background-color: #393E46;
+    color: #EEEEEE;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 30px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.home .home-element .text-and-button .both-button .button2 img{
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+}
+.home .home-images {
+    position: relative;
+}
+.home .home-images .cartoon-shadow{
+    position: absolute;
+    top: 540px;
+    left: -32px;
+}
+.home .home-images .cartoon-using-laptop{
+    position: absolute;
+    top: 180px;
+    left: -32px;
+}
+/* home page end */
+/* --------------------------------------------------------------- */
+/* about me page start */
+.about-page{
+    background-color: #222831;
+    position: relative;
+    padding-top: 8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15rem;
+}
+.about-page .text-about{
+    align-items: center;
+    position: relative;
+    padding-right: 4rem;
+}
+.about-page .text-about .music-sign{
+    width: 5rem;
+    height: 4rem;
+    position: absolute;
+    top: -12rem;
+}
+.about-page .text-about .lightbulb{
+    position: absolute;
+    left: 25rem;
+}
+.about-page .text-about .round-arrow2{
+    position: absolute;
+    left: 15rem;
+    top: 30rem;
+}
+.about-page .text-about .title{
+    font-family: "Poppins", serif;
+    color: #EEEEEE;
+    font-size: 60px;
+    font-weight: bold;
+}
+.about-page .text-about .title samp{
+    color: #00ADB5;
+    font-family: "Poppins", serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+.about-page .text-about .paragraph{
+    color: #EEEEEE;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    width: 25rem;
+    font-weight: 250;
+}
+.about-page .images-about{
+    align-items: center;
+    position: relative;
+}
+.about-page .images-about .cartoon-shadow{
+    position: absolute;
+    top: 570px;
+    left: 140px;
+}
+.about-page .images-about .sleeping-sign{
+    position: absolute;
+    top: 210px;
+    left: 200px;
+}
+.about-page .images-about .aboutpage-cartoon{
+    position: absolute;
+    top: 230px;
+    left: 110px;
+}
+/* about me page end */
+/* --------------------------------------------------------------- */
+/* my recent works start */
+.recent-work{
+    background-image: url(random-icon3.png);
+    background-color: #222831;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 15rem;
+}
+.recent-work .my-recent-work{
+    font-family: "Poppins", serif;
+    color: #EEEEEE;
+    font-size: 60px;
+    font-weight: bold;
+}
+.recent-work .my-recent-work samp{
+    color: #00ADB5;
+    font-family: "Poppins", serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.recent-work .four-button .button1{
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 30px;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 0rem;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.recent-work .button2 {
+    background-color: #393E46;
+    color: #EEEEEE;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 30px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+.recent-work .image-container{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.recent-work .image-container .work-image{
+    background-color: #eeeeee13;
+    height: 65%;
+    width: 65%;
+    padding: 3rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.recent-work .image-container .work-image img{
+    width: 100%;
+}
+/* my recent works end */
+/* --------------------------------------------------------------- */
+/* my contact start */
+
+.contact{
+    background-color: #222831;  
+    padding-top: 15rem;
+    padding-left: 4rem;
+    padding-right: 5rem;
+    padding-bottom: 27rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.contact .round-arrow3{
+    position: absolute;
+    top: 30rem;
+    left: 6rem;
+}
+.contact .keyboard{
+    position: absolute;
+    top: 5rem;
+    left: 55rem;
+}
+.contact .mail{
+    position: absolute;
+    top: 37rem;
+    left: 72rem;
+}
+.contact .contactpage-cartoon{
+    position: absolute;
+    top: 25rem;
+    left: 17rem;
+}
+.contact .question h3{
+    color: #EEEEEE;
+    font-family: "Poppins", serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+.contact .question span{
+    color: #00ADB5;
+    font-family: "Poppins", serif;
+}
+.contact .all-text-box .small-boxs{
+    gap: 1rem;
+    display: flex;
+    padding-bottom: 1rem;
+}
+.contact .all-text-box .small-boxs .text-box1{
+    display: flex;
+    flex-direction: column;
+}
+.contact .all-text-box .small-boxs .text-box1 label{
+    color: #EEEEEE;
+    font-family: "Poppins", serif;
+    font-size: 18;
+    font-weight: bold;
+}
+
+.contact .all-text-box .small-boxs .text-box1 input{
+    background-color: #eeeeee1f;
+    color: #EEEEEE;
+    border: 0;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 8px;
+    padding: 0px 10px;
+}
+.contact .all-text-box .small-boxs .text-box2{
+    display: flex;
+    flex-direction: column;
+}
+.contact .all-text-box .small-boxs .text-box2 label{
+    color: #EEEEEE;
+    font-family: "Poppins", serif;
+    font-size: 18;
+    font-weight: bold;
+}
+.contact .all-text-box .small-boxs .text-box2 input{
+    background-color: #eeeeee1f;
+    color: #EEEEEE;
+    border: 0;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 8px;
+    padding: 0px 10px;
+}
+.contact .all-text-box  .text-box3{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+.contact .all-text-box .text-box3 label{
+    color: #EEEEEE;
+    font-family: "Poppins", serif;
+    font-size: 18;
+    font-weight: bold;
+}
+.contact .all-text-box .text-box3 textarea{
+    background-color: #eeeeee1f;
+    border: 0;
+    height: 12rem;
+    width: 31rem;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.contact .send-massage{
+    background-color: #00ADB5;
+    height: 2rem;
+    width: 10rem;
+    border: 0;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+/* contact end here */
+/* --------------------------------------------------------------- */
+/* footer start here */
+.footer{
+    background-color: #222831;
+    padding-bottom: 3rem;
+}
+.footer .ancor-point{
+    color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer h3{
+    padding-left: 5px;
+    padding-right: 2rem;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+.terms-service{
+    color: #EEEEEE;
+    padding-top: 2rem;
+    padding-left: 60rem;
+}
+.all-icon{
+    padding-top: 8rem;
+    padding-left: 31rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+
+}
+.social-icon{
+    background-color: #eeeeee13;
+    padding: 1rem;
+    border-radius: 100%;
+    margin: 1rem;
+    height: 15px;
+    width: 15px;
+}
